@@ -2,10 +2,7 @@
 @import "project.scss";
 @import "contact.scss";
 @import "mixins.scss";
-
-// Color variables
-$textBlack: #111;
-$textBlue: #4a4ff2;
+@import "variables.scss";
 
 // Browser reset
 *,

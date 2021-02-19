@@ -1,1 +1,54 @@
 @import "mixins.scss";
+@import "variables.scss";
+
+// Browser reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: $textBlack;
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+
+// Navigation
+.navigation {
+  @include nav__container;
+}
+
+.navigation__links {
+  @include nav__links;
+
+  li:hover {
+    @include hover;
+  }
+}
+
+// Footer
+.footer {
+  @include nav__container;
+}
+.footer__links {
+  @include nav__links;
+
+  li:hover {
+    @include hover;
+  }
+}
+
+.social-links {
+  width: fit-content;
+  margin-left: 10%;
+}
