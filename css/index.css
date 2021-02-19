@@ -21,10 +21,20 @@ body {
   display: flex;
   margin-top: 6rem; }
 
-.navigation__links {
+.navigation__links,
+.footer__links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   list-style-type: none; }
+  .navigation__links a:link,
+  .footer__links a:link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111; }
+  .navigation__links a:nth-child(1),
+  .footer__links a:nth-child(1) {
+    margin-right: 3rem; }
 
 /*# sourceMappingURL=index.css.map */

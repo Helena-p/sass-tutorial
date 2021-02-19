@@ -23,6 +23,25 @@ body {
 // Color variables
 //text_blue: #4a4ff2;
 
+// Mixins
+@mixin nav__links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+
+  a:link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111;
+  }
+
+  a:nth-child(1) {
+    margin-right: 3rem;
+  }
+}
+
 // Navigation
 .navigation {
   width: 100%;
@@ -30,9 +49,7 @@ body {
   margin-top: 6rem;
 }
 
-.navigation__links {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+.navigation__links,
+.footer__links {
+  @include nav__links;
 }
