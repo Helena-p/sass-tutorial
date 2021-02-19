@@ -5,10 +5,26 @@
   padding: 0;
   box-sizing: inherit; }
 
-html,
+html {
+  font-size: 62.5%; }
+
 body {
   box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: "Mulish", sans-serif; }
+  font-family: "Mulish", sans-serif;
+  color: #111;
+  width: 85%;
+  height: 100vh;
+  margin: auto; }
+
+.navigation {
+  width: 100%;
+  display: flex;
+  margin-top: 6rem; }
+
+.navigation__links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none; }
 
 /*# sourceMappingURL=index.css.map */
