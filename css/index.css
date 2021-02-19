@@ -41,17 +41,32 @@ body {
     transform: scale(1.2);
     transition: all 0.2s ease-in-out; }
 
-.header__primary {
-  font-weight: 700;
-  font-size: 4rem;
-  line-height: 6rem; }
 .header__tertiary {
-  font-weight: 700;
   font-size: 2.2rem;
+  font-weight: 700;
   line-height: 2.8rem;
   letter-spacing: -0.0423077rem; }
 .header span {
   color: #4a4ff2; }
+
+.header__box {
+  display: flex;
+  justify-content: space-between; }
+  .header__box-primary {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    width: 63.5rem; }
+  .header__box-text {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+    font-style: italic;
+    opacity: 0.6;
+    mix-blend-mode: normal;
+    width: 30rem;
+    align-self: flex-end;
+    justify-self: center; }
 
 .footer {
   width: 100%;
