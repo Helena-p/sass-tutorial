@@ -1,6 +1,7 @@
 // Partial files
 @import "project.scss";
 @import "contact.scss";
+@import "mixins.scss";
 
 // Color variables
 $textBlack: #111;
@@ -26,42 +27,6 @@ body {
   width: 85%;
   height: auto;
   margin: auto;
-}
-
-// Mixins
-@mixin nav__container {
-  width: 100%;
-  display: flex;
-  margin-top: 6rem;
-}
-
-@mixin nav__links {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
-
-  a:link {
-    text-decoration: none;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: $textBlack;
-  }
-
-  a:nth-child(1) {
-    margin-right: 3rem;
-  }
-
-  .fab {
-    list-style-type: none;
-    color: $textBlack;
-  }
-}
-
-@mixin hover {
-  color: $textBlue;
-  transform: scale(1.2);
-  transition: all 0.2s ease-in-out; //TODO add color to <a> on hover
 }
 
 // Navigation
