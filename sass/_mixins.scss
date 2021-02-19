@@ -19,10 +19,9 @@
 }
 
 @mixin nav__links {
-  width: 100%;
-  display: flex;
+  @include nav__container;
   justify-content: flex-end;
-  margin-top: 6rem;
+  align-items: center;
   list-style-type: none;
 
   a:link {

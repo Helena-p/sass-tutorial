@@ -32,6 +32,7 @@ body {
   }
 }
 
+// Header and text content
 .header {
   &__tertiary {
     @include header_third;
@@ -76,5 +77,5 @@ body {
 
 .social-links {
   width: fit-content;
-  margin-left: 10%;
+  margin-left: 5%;
 }

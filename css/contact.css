@@ -24,7 +24,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 6rem;
+  align-items: center;
   list-style-type: none; }
   .navigation__links a:link {
     text-decoration: none;
@@ -50,7 +50,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  margin-top: 6rem;
+  align-items: center;
   list-style-type: none; }
   .footer__links a:link {
     text-decoration: none;
