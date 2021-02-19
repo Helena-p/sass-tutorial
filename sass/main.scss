@@ -42,6 +42,23 @@ body {
   }
 }
 
+.header {
+  &__primary {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  &__tertiary {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.0423077rem;
+  }
+  span {
+    color: $textBlue;
+  }
+}
+
 // Footer
 .footer {
   @include nav__container;
