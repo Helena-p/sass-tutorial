@@ -1,13 +1,10 @@
-@import "mixins.scss";
-@import "variables.scss";
-
+@use 'mixins';
+@use 'variables';
 // Browser reset
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+  @include universal;
 }
 
 html {
@@ -15,12 +12,7 @@ html {
 }
 
 body {
-  box-sizing: border-box;
-  font-family: "Mulish", sans-serif;
-  color: $textBlack;
-  width: 85%;
-  height: auto;
-  margin: auto;
+  @include body;
 }
 
 // Navigation

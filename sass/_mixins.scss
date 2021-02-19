@@ -1,4 +1,17 @@
-@import "variables.scss";
+@mixin universal {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@mixin body {
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: $textBlack;
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
 
 @mixin nav__container {
   width: 100%;
@@ -65,3 +78,5 @@
   font-weight: $fontLight;
   line-height: 2.3rem;
 }
+
+@import "variables";

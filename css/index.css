@@ -72,6 +72,8 @@ body {
   width: fit-content;
   margin-left: 10%; }
 
+@use 'mixins';
+@use 'variables';
 *,
 *::after,
 *::before {
