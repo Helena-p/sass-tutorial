@@ -1,13 +1,13 @@
 @mixin nav__container {
   width: 100%;
   display: flex;
-  margin-top: 6rem;
 }
 
 @mixin nav__links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 6rem;
   list-style-type: none;
 
   a:link {

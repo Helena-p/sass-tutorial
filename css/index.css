@@ -18,13 +18,13 @@ body {
 
 .navigation {
   width: 100%;
-  display: flex;
-  margin-top: 6rem; }
+  display: flex; }
 
 .navigation__links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 6rem;
   list-style-type: none; }
   .navigation__links a:link {
     text-decoration: none;
@@ -51,6 +51,7 @@ body {
 
 .header__box {
   display: flex;
+  margin-top: 3rem;
   justify-content: space-between; }
   .header__box-primary {
     font-size: 4rem;
@@ -70,13 +71,13 @@ body {
 
 .footer {
   width: 100%;
-  display: flex;
-  margin-top: 6rem; }
+  display: flex; }
 
 .footer__links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 6rem;
   list-style-type: none; }
   .footer__links a:link {
     text-decoration: none;
