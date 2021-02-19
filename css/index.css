@@ -13,7 +13,7 @@ body {
   font-family: "Mulish", sans-serif;
   color: #111;
   width: 85%;
-  height: 100vh;
+  height: auto;
   margin: auto; }
 
 .navigation {
@@ -21,20 +21,49 @@ body {
   display: flex;
   margin-top: 6rem; }
 
-.navigation__links,
+.navigation__links {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none; }
+  .navigation__links a:link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #111; }
+  .navigation__links a:nth-child(1) {
+    margin-right: 3rem; }
+  .navigation__links .fab {
+    list-style-type: none;
+    color: #111; }
+  .navigation__links li:hover {
+    color: #4a4ff2;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out; }
+
+.footer {
+  width: 100%;
+  display: flex;
+  margin-top: 6rem; }
+
 .footer__links {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   list-style-type: none; }
-  .navigation__links a:link,
   .footer__links a:link {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 700;
     color: #111; }
-  .navigation__links a:nth-child(1),
   .footer__links a:nth-child(1) {
     margin-right: 3rem; }
+  .footer__links .fab {
+    list-style-type: none;
+    color: #111; }
+
+.social-links {
+  width: fit-content;
+  margin-left: 10%; }
 
 /*# sourceMappingURL=index.css.map */

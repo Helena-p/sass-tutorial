@@ -1,3 +1,7 @@
+// Color variables
+$textBlack: #111;
+$textBlue: #4a4ff2;
+
 // Browser reset
 *,
 *::after,
@@ -14,16 +18,19 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
-  color: #111;
+  color: $textBlack;
   width: 85%;
-  height: 100vh;
+  height: auto;
   margin: auto;
 }
 
-// Color variables
-//text_blue: #4a4ff2;
-
 // Mixins
+@mixin nav__container {
+  width: 100%;
+  display: flex;
+  margin-top: 6rem;
+}
+
 @mixin nav__links {
   width: 100%;
   display: flex;
@@ -34,22 +41,47 @@ body {
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 700;
-    color: #111;
+    color: $textBlack;
   }
 
   a:nth-child(1) {
     margin-right: 3rem;
   }
+
+  .fab {
+    list-style-type: none;
+    color: $textBlack;
+  }
+}
+
+@mixin hover {
+  color: $textBlue;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }
 
 // Navigation
 .navigation {
-  width: 100%;
-  display: flex;
-  margin-top: 6rem;
+  @include nav__container;
 }
 
-.navigation__links,
+.navigation__links {
+  @include nav__links;
+
+  li:hover {
+    @include hover;
+  }
+}
+
+// Footer
+.footer {
+  @include nav__container;
+}
 .footer__links {
   @include nav__links;
+}
+
+.social-links {
+  width: fit-content;
+  margin-left: 10%;
 }
