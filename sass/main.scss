@@ -57,7 +57,7 @@ body {
 @mixin hover {
   color: $textBlue;
   transform: scale(1.2);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; //TODO add color to <a> on hover
 }
 
 // Navigation
@@ -79,6 +79,10 @@ body {
 }
 .footer__links {
   @include nav__links;
+
+  li:hover {
+    @include hover;
+  }
 }
 
 .social-links {

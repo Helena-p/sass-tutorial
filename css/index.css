@@ -61,6 +61,10 @@ body {
   .footer__links .fab {
     list-style-type: none;
     color: #111; }
+  .footer__links li:hover {
+    color: #4a4ff2;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out; }
 
 .social-links {
   width: fit-content;
