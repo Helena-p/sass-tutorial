@@ -52,11 +52,18 @@ body {
   }
   &-text {
     @include sect_header;
-    font-style: italic;
     @include text_opacity;
+    font-style: italic;
     width: 30rem;
     align-self: flex-end;
     justify-self: center;
+    &::before {
+      content: "";
+      display: block;
+      width: 3rem;
+      border-bottom: 0.2rem solid rgba(17, 17, 17, 0.5);
+      margin-bottom: 0.9rem;
+    }
   }
 }
 
@@ -89,13 +96,17 @@ body {
   list-style-type: none;
   width: 15rem;
 
+  &-media,
+  &-design {
+    @include text_opacity;
+  }
+
   &-li {
+    @include text_opacity;
     margin-top: 1rem;
   }
 }
 
-.ruler {
-}
 // Award section
 // Design section
 

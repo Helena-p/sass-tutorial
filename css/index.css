@@ -353,12 +353,18 @@ body {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.3rem;
-    font-style: italic;
     mix-blend-mode: normal;
     opacity: 0.6;
+    font-style: italic;
     width: 30rem;
     align-self: flex-end;
     justify-self: center; }
+    .header__box-text::before {
+      content: "";
+      display: block;
+      width: 3rem;
+      border-bottom: 0.2rem solid rgba(17, 17, 17, 0.5);
+      margin-bottom: 0.9rem; }
 
 .gallery {
   height: 40rem; }
@@ -389,7 +395,12 @@ body {
   line-height: 2.3rem;
   list-style-type: none;
   width: 15rem; }
+  .sub__list-media, .sub__list-design {
+    mix-blend-mode: normal;
+    opacity: 0.6; }
   .sub__list-li {
+    mix-blend-mode: normal;
+    opacity: 0.6;
     margin-top: 1rem; }
 
 .footer {
