@@ -54,6 +54,15 @@ body {
   font-weight: 700; //TODO Specificity wrong color
   color: $textBlack;
 }
+
+// Hero image
+.project__hero-image {
+  @include nav__container;
+  height: 76.6rem;
+  justify-content: center;
+  align-items: center;
+}
+
 // Footer
 .footer {
   @include nav__container;
