@@ -403,6 +403,13 @@ body {
     opacity: 0.6;
     margin-top: 1rem; }
 
+.grid__section {
+  display: grid;
+  grid-template-columns: repeat(4, auto, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center; }
+
 .footer {
   width: 100%;
   display: flex; }
