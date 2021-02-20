@@ -91,6 +91,5 @@ body {
 }
 
 .social-links {
-  width: fit-content;
-  margin-left: 10%;
+  @include links;
 }

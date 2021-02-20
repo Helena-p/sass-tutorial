@@ -56,6 +56,11 @@
   curser: pointer;
 }
 
+@mixin links {
+  width: fit-content;
+  margin-left: 10%;
+}
+
 // Header
 @mixin header_main {
   font-size: 4rem;
@@ -118,6 +123,14 @@
     opacity: 0.6;
     border-bottom: 0.1rem solid $borderGray;
   }
+}
+
+// Form
+@mixin form_text {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: $textBlack;
 }
 
 @import "variables";

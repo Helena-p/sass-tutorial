@@ -74,6 +74,5 @@ body {
 }
 
 .social-links {
-  width: fit-content;
-  margin-left: 5%;
+  @include links;
 }

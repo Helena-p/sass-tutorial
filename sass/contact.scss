@@ -29,10 +29,57 @@ body {
 }
 
 // Contact header
+.header__box {
+  @include box;
+  margin-top: 0;
+
+  &-primary {
+    @include header_main;
+    width: 47.5rem;
+  }
+  &-secondary {
+    @include boxSecondary;
+  }
+  &-paragraph {
+    @include paragraph;
+    margin-top: 1.4rem;
+    width: 44.5rem;
+  }
+}
 
 // Form
+.form__container {
+  display: flex;
+  flex-direction: column;
+  width: 47.5rem;
+  height: 29rem;
+  justify-content: space-evenly;
+  &-label {
+    @include form_text;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  &-input {
+    padding: 1.8rem;
+  }
+  &-btn {
+    @include form_text;
+    color: #fff;
+    width: 12.5rem;
+    height: 5rem;
+    background-color: $textBlue;
+    text-align: center;
+    border: none;
+  }
+}
 
-// Images
+// Image
+.img-box {
+  display: flex;
+  align-items: center;
+  height: 80rem;
+}
+
 .img-map {
   width: 100%;
 }
@@ -50,6 +97,5 @@ body {
 }
 
 .social-links {
-  width: fit-content;
-  margin-left: 10%;
+  @include links;
 }

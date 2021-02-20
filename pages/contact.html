@@ -51,18 +51,47 @@
           </p>
         </div>
         <!-- Form -->
-        <form action="">
-          <label for="">Name</label>
-          <input type="text" />
-          <label for="">Email</label>
-          <input type="text" />
-          <label for="">Message</label>
-          <input type="text" />
-          <input type="btn" value="submit" />
+        <form class="form__container" action="">
+          <label
+            class="form__container-label"
+            for="name"
+            placeholder="Name"
+          ></label>
+          <input
+            class="form__container-input"
+            name="name"
+            id="name"
+            type="text"
+            required
+          />
+          <label
+            class="form__container-label"
+            for="email"
+            placeholder="Email"
+          ></label>
+          <input
+            class="form__container-input"
+            name="email"
+            id="email"
+            type="text"
+            required
+          />
+          <label
+            class="form__container-label"
+            for="message"
+            placeholder="Message"
+          ></label>
+          <input
+            class="form__container-input"
+            name="message"
+            id="message"
+            type="text"
+          />
+          <input type="submit" value="Submit" class="form__container-btn"></input>
         </form>
       </div>
     </main>
-    <section>
+    <section class="img-box">
       <img class="img-map" src="/images/Map.png" alt="City map" />
     </section>
 
