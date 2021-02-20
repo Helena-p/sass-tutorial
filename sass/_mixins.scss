@@ -64,7 +64,7 @@
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  curser: pointer;
+  cursor: pointer;
 }
 
 @mixin links {
@@ -185,6 +185,7 @@
   background-color: $textBlue;
   text-align: center;
   border: none;
+  cursor: pointer;
 }
 
 // Grid mixin

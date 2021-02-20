@@ -50,7 +50,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .header__box {
@@ -151,7 +151,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
@@ -210,7 +210,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .header__box {
@@ -269,6 +269,7 @@ body {
     background-color: #4a4ff2;
     text-align: center;
     border: none;
+    cursor: pointer;
     margin-top: 3rem; }
     .form__container-btn:hover {
       color: #4a4ff2;
@@ -278,7 +279,7 @@ body {
       -webkit-transition: all 0.2s ease-in-out;
       -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
-      curser: pointer;
+      cursor: pointer;
       color: #fff; }
 
 .img-box {
@@ -317,7 +318,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
@@ -376,7 +377,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .logo:hover {
@@ -387,7 +388,7 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  curser: pointer; }
+  cursor: pointer; }
 
 .header__tertiary {
   font-size: 2.2rem;
@@ -546,7 +547,7 @@ body {
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    curser: pointer;
+    cursor: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
