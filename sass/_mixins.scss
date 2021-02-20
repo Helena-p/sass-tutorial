@@ -20,14 +20,14 @@
   align-items: center;
 }
 
-// Navigation
-@mixin nav__container {
+@mixin flex__container {
   width: 100%;
   display: flex;
 }
 
+// Navigation
 @mixin nav__links {
-  @include nav__container;
+  @include flex__container;
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;

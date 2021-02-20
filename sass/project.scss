@@ -16,7 +16,7 @@ body {
 
 // Navigation
 .navigation {
-  @include nav__container;
+  @include flex__container;
 }
 
 .navigation__links {
@@ -41,6 +41,7 @@ body {
   }
   &-paragraph {
     @include paragraph;
+    width: 63.5rem;
     margin-top: 2.8rem;
   }
 }
@@ -57,7 +58,7 @@ body {
 
 // Project hero image
 .project__hero-image {
-  @include nav__container;
+  @include flex__container;
   height: 76.6rem;
   @include pos-center;
 }
@@ -67,20 +68,20 @@ body {
 }
 
 .image__section {
-  @include nav__container;
+  @include flex__container;
   @include pos-center;
   height: 57.2rem;
 }
 
 .image__container {
-  @include nav__container;
+  @include flex__container;
   justify-content: space-around;
   height: 40rem;
 }
 
 // Footer
 .footer {
-  @include nav__container;
+  @include flex__container;
 }
 .footer__links {
   @include nav__links;
