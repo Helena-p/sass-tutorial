@@ -24,6 +24,7 @@ body {
 
   li:hover {
     @include hover;
+    border-bottom: 0.2rem solid $textBlue;
   }
 }
 
@@ -88,6 +89,7 @@ body {
 
   li:hover {
     @include hover;
+    border-bottom: 0.2rem solid $textBlue;
   }
 }
 

@@ -29,7 +29,12 @@ body {
 
   li:hover {
     @include hover;
+    border-bottom: 0.2rem solid $textBlue;
   }
+}
+
+.logo:hover {
+  @include hover;
 }
 
 // Header and text content
@@ -110,8 +115,6 @@ body {
 // Award & Design grid section
 .grid__section {
   @include grid;
-  // padding-top: 3rem;
-  // padding-bottom: 3rem;
 
   &-header {
     @include header_third;
@@ -151,12 +154,13 @@ body {
     grid-column-start: 3;
     grid-column-end: 4;
     margin-bottom: 2rem;
+    align-self: flex-start;
   }
 }
 
 .mid--ruler {
-  margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 // Footer
@@ -168,6 +172,7 @@ body {
 
   li:hover {
     @include hover;
+    border-bottom: 0.2rem solid $textBlue;
   }
 }
 

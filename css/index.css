@@ -40,7 +40,8 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
 
 .header__box {
   display: flex;
@@ -136,7 +137,8 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
   width: fit-content;
@@ -184,7 +186,8 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
 
 .header__box {
   display: flex;
@@ -282,7 +285,8 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
   width: fit-content;
@@ -330,7 +334,14 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
+
+.logo:hover {
+  color: #4a4ff2;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+  curser: pointer; }
 
 .header__tertiary {
   font-size: 2.2rem;
@@ -405,7 +416,7 @@ body {
 
 .grid__section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 40% 15% 15% 10%;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 3rem;
   grid-row-gap: 2rem;
@@ -454,11 +465,12 @@ body {
     opacity: 0.6;
     grid-column-start: 3;
     grid-column-end: 4;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    align-self: flex-start; }
 
 .mid--ruler {
-  margin-top: 4rem;
-  margin-bottom: 3rem; }
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem; }
 
 .footer {
   width: 100%;
@@ -484,7 +496,8 @@ body {
     color: #4a4ff2;
     transform: scale(1.2);
     transition: all 0.2s ease-in-out;
-    curser: pointer; }
+    curser: pointer;
+    border-bottom: 0.2rem solid #4a4ff2; }
 
 .social-links {
   width: fit-content;
