@@ -49,27 +49,17 @@ body {
 
 // Form
 .form__container {
-  display: flex;
-  flex-direction: column;
-  width: 47.5rem;
-  height: 29rem;
-  justify-content: space-evenly;
-  &-label {
-    @include form_text;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-  }
+  @include form;
   &-input {
-    padding: 1.8rem;
+    @include input_field;
   }
   &-btn {
-    @include form_text;
-    color: #fff;
-    width: 12.5rem;
-    height: 5rem;
-    background-color: $textBlue;
-    text-align: center;
-    border: none;
+    @include submit_btn;
+    margin-top: 3rem;
+    &:hover {
+      @include hover;
+      color: $textWhite;
+    }
   }
 }
 

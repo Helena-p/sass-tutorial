@@ -118,19 +118,52 @@
   }
   &-td {
     @include sect_header;
-    padding: 1.6rem;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-    border-bottom: 0.1rem solid $borderGray;
+    @include border;
   }
 }
 
+@mixin border {
+  padding: 1.6rem;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  border-bottom: 0.1rem solid $borderGray;
+}
+
 // Form
+@mixin form {
+  display: flex;
+  flex-direction: column;
+  width: 47.5rem;
+  height: 29rem;
+  justify-content: space-around;
+}
+
 @mixin form_text {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2rem;
   color: $textBlack;
+}
+
+@mixin input_field {
+  padding: 1.8rem;
+  border: none;
+  @include border;
+  &::placeholder {
+    @include form_text;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+}
+
+@mixin submit_btn {
+  @include form_text;
+  color: $textWhite;
+  width: 12.5rem;
+  height: 5rem;
+  background-color: $textBlue;
+  text-align: center;
+  border: none;
 }
 
 @import "variables";
