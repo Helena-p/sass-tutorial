@@ -27,7 +27,7 @@ body {
   }
 }
 
-// Header and text content
+// Project header
 .header__box {
   @include box;
   margin-top: 0;
@@ -55,7 +55,7 @@ body {
   color: $textBlack;
 }
 
-// Hero image
+// Project hero image
 .project__hero-image {
   @include nav__container;
   height: 76.6rem;

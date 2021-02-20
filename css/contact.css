@@ -42,6 +42,9 @@ body {
     transition: all 0.2s ease-in-out;
     curser: pointer; }
 
+.img-map {
+  width: 100%; }
+
 .footer {
   width: 100%;
   display: flex; }
