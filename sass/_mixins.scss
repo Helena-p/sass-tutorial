@@ -63,7 +63,7 @@
 }
 
 @mixin boxSecondary {
-  width: 48rem;
+  width: 62rem;
   height: 35rem;
   display: flex;
   flex-direction: column;
@@ -94,6 +94,23 @@
   font-size: 1.8rem;
   font-weight: $fontLight;
   line-height: 2.3rem;
+}
+
+// Table
+@mixin table {
+  &-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 50rem;
+    height: 3.5rem;
+  }
+  &-td {
+    @include sect_header;
+    padding: 1.6rem;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    border-bottom: 0.1rem solid $borderGray;
+  }
 }
 
 @import "variables";

@@ -34,27 +34,25 @@ body {
 
   &-primary {
     @include header_main;
-    width: 48rem;
+    width: 50rem;
   }
   &-secondary {
     @include boxSecondary;
   }
   &-paragraph {
     @include paragraph;
+    margin-top: 2.8rem;
   }
 }
 
+// Table
 .header__table {
-  &-box {
-    width: 50rem;
-    height: 30rem;
-  }
-  &-td {
-    padding: 1.6rem;
-    mix-blend-mode: normal;
-    opacity: 0.3;
-    border-bottom: 0.1rem solid $borderGray;
-  }
+  @include table;
+}
+
+.bold {
+  font-weight: 700; //TODO Specificity wrong color
+  color: $textBlack;
 }
 // Footer
 .footer {
