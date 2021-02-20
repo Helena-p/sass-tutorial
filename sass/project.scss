@@ -28,7 +28,17 @@ body {
 }
 
 // Header and text content
+.header__box {
+  @include box;
 
+  &-primary {
+    @include header_main;
+    width: 48rem;
+  }
+  &-secondary {
+    @include boxSecondary;
+  }
+}
 // Footer
 .footer {
   @include nav__container;

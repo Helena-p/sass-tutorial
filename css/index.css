@@ -42,6 +42,22 @@ body {
     transition: all 0.2s ease-in-out;
     curser: pointer; }
 
+.header__box {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between; }
+  .header__box-primary {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6rem;
+    width: 48rem; }
+  .header__box-secondary {
+    width: 50rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+
 .footer {
   width: 100%;
   display: flex; }

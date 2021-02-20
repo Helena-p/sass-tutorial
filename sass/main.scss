@@ -44,9 +44,7 @@ body {
 }
 
 .header__box {
-  display: flex;
-  margin-top: 3rem;
-  justify-content: space-between;
+  @include box;
 
   &-primary {
     @include header_main;
