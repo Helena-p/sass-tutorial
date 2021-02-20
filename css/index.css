@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 *,
 *::after,
 *::before {
@@ -38,7 +44,11 @@ body {
     color: #111; }
   .navigation__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
@@ -135,7 +145,11 @@ body {
     color: #111; }
   .footer__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
@@ -144,6 +158,12 @@ body {
   width: fit-content;
   margin-left: 10%; }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 *,
 *::after,
 *::before {
@@ -184,7 +204,11 @@ body {
     color: #111; }
   .navigation__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
@@ -248,7 +272,11 @@ body {
     margin-top: 3rem; }
     .form__container-btn:hover {
       color: #4a4ff2;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
       transform: scale(1.2);
+      -webkit-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
       transition: all 0.2s ease-in-out;
       curser: pointer;
       color: #fff; }
@@ -283,7 +311,11 @@ body {
     color: #111; }
   .footer__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
@@ -292,6 +324,12 @@ body {
   width: fit-content;
   margin-left: 10%; }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 *,
 *::after,
 *::before {
@@ -332,14 +370,22 @@ body {
     color: #111; }
   .navigation__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }
 
 .logo:hover {
   color: #4a4ff2;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
   transform: scale(1.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   curser: pointer; }
 
@@ -494,7 +540,11 @@ body {
     color: #111; }
   .footer__links li:hover {
     color: #4a4ff2;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     curser: pointer;
     border-bottom: 0.2rem solid #4a4ff2; }

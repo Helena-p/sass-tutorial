@@ -1,5 +1,6 @@
 @import "mixins";
 @import "variables";
+
 // Browser reset
 *,
 *::after,
@@ -53,7 +54,7 @@ body {
 }
 
 .bold {
-  font-weight: 700; //TODO Specificity wrong color
+  font-weight: $fontBold; //TODO Specificity wrong color
   color: $textBlack;
 }
 
@@ -68,6 +69,7 @@ body {
   @include paragraph;
 }
 
+// Image section
 .image__section {
   @include flex__container;
   @include pos-center;

@@ -23,6 +23,7 @@
     <title>Genesis</title>
   </head>
   <body id="contact">
+
     <!-- Navigation -->
     <nav class="navigation">
       <div >
@@ -50,8 +51,9 @@
             goals, they help us to stay sharp.
           </p>
         </div>
+
         <!-- Form -->
-        <form class="form__container" action="">
+        <form class="form__container" action="" method="post">
           <label
             class="form__container-label"
             for="name"
@@ -63,6 +65,8 @@
             id="name"
             type="text"
             placeholder="Name"
+            pattern="[A-Za-z]"
+            autofocus
             required
           />
           <label
@@ -94,6 +98,8 @@
         </form>
       </div>
     </main>
+
+    <!-- Map Image -->
     <section class="img-box">
       <img class="img-map" src="/images/Map.png" alt="City map" />
     </section>

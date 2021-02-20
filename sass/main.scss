@@ -76,6 +76,7 @@ body {
 .gallery {
   height: 40rem;
 }
+
 // Sub heading
 .sub__container {
   @include flex__container;
@@ -127,7 +128,7 @@ body {
 
   &-sub {
     @include sect_header;
-    font-weight: 700;
+    font-weight: $fontBold;
     grid-column-start: 2;
     grid-column-end: 3;
     align-self: flex-end;

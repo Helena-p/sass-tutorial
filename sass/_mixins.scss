@@ -49,10 +49,21 @@
   }
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @mixin hover {
   color: $textBlue;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
   transform: scale(1.2);
-  transition: all 0.2s ease-in-out; //TODO add color to <a> on hover
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   curser: pointer;
 }
 
@@ -109,7 +120,7 @@
 }
 
 @mixin sect_title {
-  font-weight: 400;
+  font-weight: $fontNormal;
   font-size: 1.6rem;
   line-height: 2rem;
   color: $textBlack;
@@ -150,7 +161,7 @@
 }
 
 @mixin form_text {
-  font-weight: 700;
+  font-weight: $fontBold;
   font-size: 1.6rem;
   line-height: 2rem;
   color: $textBlack;
