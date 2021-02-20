@@ -107,13 +107,11 @@ body {
   }
 }
 
-// Award section
+// Award & Design grid section
 .grid__section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 1rem;
-  align-items: center;
+  @include grid;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
   &-header {
     @include header_third;
@@ -125,10 +123,9 @@ body {
 
   &-sub {
     @include sect_header;
+    font-weight: 700;
     grid-column-start: 2;
     grid-column-end: 3;
-    // grid-row-start: ;
-    // grid-row-end: ;
   }
 
   &-title {
@@ -141,6 +138,7 @@ body {
     @include sect_title;
     grid-column-start: 4;
     grid-column-end: 5;
+    justify-self: flex-end;
   }
 
   &-text {
@@ -150,7 +148,6 @@ body {
     grid-column-end: 4;
   }
 }
-// Design section
 
 // Footer
 .footer {
