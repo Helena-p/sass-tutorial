@@ -110,8 +110,8 @@ body {
 // Award & Design grid section
 .grid__section {
   @include grid;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  // padding-top: 3rem;
+  // padding-bottom: 3rem;
 
   &-header {
     @include header_third;
@@ -119,6 +119,7 @@ body {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    align-self: flex-end;
   }
 
   &-sub {
@@ -126,12 +127,14 @@ body {
     font-weight: 700;
     grid-column-start: 2;
     grid-column-end: 3;
+    align-self: flex-end;
   }
 
   &-title {
     @include sect_title;
     grid-column-start: 3;
     grid-column-end: 4;
+    align-self: flex-end;
   }
 
   &-year {
@@ -139,6 +142,7 @@ body {
     grid-column-start: 4;
     grid-column-end: 5;
     justify-self: flex-end;
+    align-self: flex-end;
   }
 
   &-text {
@@ -146,7 +150,13 @@ body {
     @include text_opacity;
     grid-column-start: 3;
     grid-column-end: 4;
+    margin-bottom: 2rem;
   }
+}
+
+.mid--ruler {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 // Footer

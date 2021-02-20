@@ -409,10 +409,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 3rem;
   grid-row-gap: 2rem;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
+  justify-content: space-between; }
   .grid__section-header {
     font-size: 2.2rem;
     font-weight: 700;
@@ -420,21 +417,24 @@ body {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 2; }
+    grid-row-end: 2;
+    align-self: flex-end; }
   .grid__section-sub {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.3rem;
     font-weight: 700;
     grid-column-start: 2;
-    grid-column-end: 3; }
+    grid-column-end: 3;
+    align-self: flex-end; }
   .grid__section-title {
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 2rem;
     color: #111;
     grid-column-start: 3;
-    grid-column-end: 4; }
+    grid-column-end: 4;
+    align-self: flex-end; }
   .grid__section-year {
     font-weight: 400;
     font-size: 1.6rem;
@@ -442,7 +442,8 @@ body {
     color: #111;
     grid-column-start: 4;
     grid-column-end: 5;
-    justify-self: flex-end; }
+    justify-self: flex-end;
+    align-self: flex-end; }
   .grid__section-text {
     font-size: 1.6rem;
     font-weight: 400;
@@ -452,7 +453,12 @@ body {
     mix-blend-mode: normal;
     opacity: 0.6;
     grid-column-start: 3;
-    grid-column-end: 4; }
+    grid-column-end: 4;
+    margin-bottom: 2rem; }
+
+.mid--ruler {
+  margin-top: 4rem;
+  margin-bottom: 3rem; }
 
 .footer {
   width: 100%;
