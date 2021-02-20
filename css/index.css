@@ -68,7 +68,7 @@ body {
 
 .header__table-box {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 50rem;
   height: 3.5rem; }
 .header__table-td {
@@ -90,6 +90,26 @@ body {
   height: 76.6rem;
   justify-content: center;
   align-items: center; }
+
+.text__container-paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  mix-blend-mode: normal;
+  opacity: 0.8; }
+
+.image__section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 57.2rem; }
+
+.image__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 40rem; }
 
 .footer {
   width: 100%;

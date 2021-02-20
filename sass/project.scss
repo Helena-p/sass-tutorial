@@ -59,8 +59,23 @@ body {
 .project__hero-image {
   @include nav__container;
   height: 76.6rem;
-  justify-content: center;
-  align-items: center;
+  @include pos-center;
+}
+
+.text__container-paragraph {
+  @include paragraph;
+}
+
+.image__section {
+  @include nav__container;
+  @include pos-center;
+  height: 57.2rem;
+}
+
+.image__container {
+  @include nav__container;
+  justify-content: space-around;
+  height: 40rem;
 }
 
 // Footer
