@@ -122,10 +122,14 @@
   }
 }
 
-@mixin border {
-  padding: 1.6rem;
+@mixin text_opacity {
   mix-blend-mode: normal;
   opacity: 0.6;
+}
+
+@mixin border {
+  padding: 1.6rem;
+  @include text_opacity;
   border-bottom: 0.1rem solid $borderGray;
 }
 
@@ -151,8 +155,7 @@
   @include border;
   &::placeholder {
     @include form_text;
-    mix-blend-mode: normal;
-    opacity: 0.6;
+    @include text_opacity;
   }
 }
 

@@ -354,11 +354,43 @@ body {
     font-weight: 300;
     line-height: 2.3rem;
     font-style: italic;
-    opacity: 0.6;
     mix-blend-mode: normal;
+    opacity: 0.6;
     width: 30rem;
     align-self: flex-end;
     justify-self: center; }
+
+.gallery {
+  height: 40rem; }
+
+.sub__container {
+  width: 100%;
+  display: flex;
+  height: 28rem;
+  justify-content: space-between;
+  align-items: center; }
+
+.sub__header-primary {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.8rem;
+  width: 63rem; }
+
+.list__container {
+  width: 100%;
+  display: flex;
+  width: 44rem;
+  justify-content: space-around;
+  align-content: space-evenly; }
+
+.sub__list {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+  list-style-type: none;
+  width: 15rem; }
+  .sub__list-li {
+    margin-top: 1rem; }
 
 .footer {
   width: 100%;

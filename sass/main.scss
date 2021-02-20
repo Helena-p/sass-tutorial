@@ -53,13 +53,51 @@ body {
   &-text {
     @include sect_header;
     font-style: italic;
-    opacity: 0.6;
-    mix-blend-mode: normal;
+    @include text_opacity;
     width: 30rem;
     align-self: flex-end;
     justify-self: center;
   }
 }
+
+// Image gallery
+.gallery {
+  height: 40rem;
+}
+// Sub heading
+.sub__container {
+  @include flex__container;
+  height: 28rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub__header-primary {
+  @include header_second;
+  width: 63rem;
+}
+
+.list__container {
+  @include flex__container;
+  width: 44rem;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
+.sub__list {
+  @include sect_header;
+  list-style-type: none;
+  width: 15rem;
+
+  &-li {
+    margin-top: 1rem;
+  }
+}
+
+.ruler {
+}
+// Award section
+// Design section
 
 // Footer
 .footer {
