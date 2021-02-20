@@ -30,6 +30,7 @@ body {
 // Header and text content
 .header__box {
   @include box;
+  margin-top: 0;
 
   &-primary {
     @include header_main;
@@ -37,6 +38,22 @@ body {
   }
   &-secondary {
     @include boxSecondary;
+  }
+  &-paragraph {
+    @include paragraph;
+  }
+}
+
+.header__table {
+  &-box {
+    width: 50rem;
+    height: 30rem;
+  }
+  &-td {
+    padding: 1.6rem;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-bottom: 0.1rem solid $borderGray;
   }
 }
 // Footer

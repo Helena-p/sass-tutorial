@@ -63,7 +63,7 @@
 }
 
 @mixin boxSecondary {
-  width: 50rem;
+  width: 48rem;
   height: 35rem;
   display: flex;
   flex-direction: column;
@@ -86,6 +86,8 @@
   font-size: 1.6rem;
   font-weight: $fontNormal;
   line-height: 2.6rem;
+  mix-blend-mode: normal;
+  opacity: 0.8;
 }
 
 @mixin sect_header {
