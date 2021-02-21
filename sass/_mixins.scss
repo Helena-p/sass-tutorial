@@ -188,14 +188,4 @@
   cursor: pointer;
 }
 
-// Grid mixin
-@mixin grid {
-  display: grid;
-  grid-template-columns: 40% 15% 15% 10%;
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 3rem;
-  grid-row-gap: 2rem;
-  justify-content: space-between;
-}
-
 @import "variables";
