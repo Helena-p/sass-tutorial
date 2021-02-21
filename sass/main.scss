@@ -52,6 +52,7 @@ body {
 
 .header__box {
   @include box;
+  height: 30rem;
 
   &-primary {
     @include header_main;
@@ -60,6 +61,7 @@ body {
   &-text {
     @include sect_header;
     @include text_opacity;
+    height: 15rem;
     font-style: italic;
     width: 30rem;
     align-self: flex-end;

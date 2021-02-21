@@ -33,6 +33,7 @@ body {
 .header__box {
   @include box;
   margin-top: 0;
+  height: 40rem;
 
   &-primary {
     @include header_main;
