@@ -119,48 +119,7 @@ body {
 
 // Award & Design grid section
 .grid__section {
-  @include grid;
-
-  &-header {
-    @include header_third;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: flex-end;
-  }
-
-  &-sub {
-    @include sect_header;
-    font-weight: $fontBold;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    align-self: flex-end;
-  }
-
-  &-title {
-    @include sect_title;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    align-self: flex-end;
-  }
-
-  &-year {
-    @include sect_title;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    justify-self: flex-end;
-    align-self: flex-end;
-  }
-
-  &-text {
-    @include paragraph;
-    @include text_opacity;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    margin-bottom: 2rem;
-    align-self: flex-start;
-  }
+  @include grid-elements;
 }
 
 .mid--ruler {
