@@ -15,7 +15,7 @@
 }
 
 // Layout
-@mixin pos-center {
+@mixin pos__center {
   justify-content: center;
   align-items: center;
 }
@@ -73,7 +73,7 @@
 }
 
 // Header
-@mixin header_main {
+@mixin header__main {
   font-size: 4rem;
   font-weight: $fontBold;
   line-height: 6rem;
@@ -85,7 +85,7 @@
   justify-content: space-between;
 }
 
-@mixin boxSecondary {
+@mixin box__secondary {
   width: 62rem;
   height: 35rem;
   display: flex;
@@ -93,13 +93,13 @@
   justify-content: space-evenly;
 }
 
-@mixin header_second {
+@mixin header__second {
   font-size: 2.8rem;
   font-weight: $fontBold;
   line-height: 3.8rem;
 }
 
-@mixin header_third {
+@mixin header__third {
   font-size: 2.2rem;
   font-weight: $fontBold;
   line-height: 2.8rem;
@@ -113,13 +113,13 @@
   opacity: 0.8;
 }
 
-@mixin sect_header {
+@mixin sect__header {
   font-size: 1.8rem;
   font-weight: $fontLight;
   line-height: 2.3rem;
 }
 
-@mixin sect_title {
+@mixin sect__title {
   font-weight: $fontNormal;
   font-size: 1.6rem;
   line-height: 2rem;
@@ -135,19 +135,19 @@
     height: 3.5rem;
   }
   &-td {
-    @include sect_header;
+    @include sect__header;
     @include border;
   }
 }
 
-@mixin text_opacity {
+@mixin text__opacity {
   mix-blend-mode: normal;
   opacity: 0.6;
 }
 
 @mixin border {
   padding: 1.6rem;
-  @include text_opacity;
+  @include text__opacity;
   border-bottom: 0.1rem solid $borderGray;
 }
 
@@ -160,25 +160,25 @@
   justify-content: space-around;
 }
 
-@mixin form_text {
+@mixin form__text {
   font-weight: $fontBold;
   font-size: 1.6rem;
   line-height: 2rem;
   color: $textBlack;
 }
 
-@mixin input_field {
+@mixin input__field {
   padding: 1.8rem;
   border: none;
   @include border;
   &::placeholder {
-    @include form_text;
-    @include text_opacity;
+    @include form__text;
+    @include text__opacity;
   }
 }
 
-@mixin submit_btn {
-  @include form_text;
+@mixin submit__btn {
+  @include form__text;
   color: $textWhite;
   width: 12.5rem;
   height: 5rem;

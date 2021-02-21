@@ -36,11 +36,11 @@ body {
   height: 40rem;
 
   &-primary {
-    @include header_main;
+    @include header__main;
     width: 50rem;
   }
   &-secondary {
-    @include boxSecondary;
+    @include box__secondary;
   }
   &-paragraph {
     @include paragraph;
@@ -55,7 +55,7 @@ body {
 }
 
 .bold {
-  font-weight: $fontBold; //TODO Specificity wrong color
+  font-weight: $fontBold;
   color: $textBlack;
 }
 
@@ -63,7 +63,7 @@ body {
 .project__hero-image {
   @include flex__container;
   height: 76.6rem;
-  @include pos-center;
+  @include pos__center;
 }
 
 .text__container-paragraph {
@@ -73,7 +73,7 @@ body {
 // Image section
 .image__section {
   @include flex__container;
-  @include pos-center;
+  @include pos__center;
   height: 57.2rem;
 }
 

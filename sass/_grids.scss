@@ -1,5 +1,5 @@
 // Image gallery Grid
-@mixin img-gallery {
+@mixin img__gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(32, 1fr);
@@ -91,11 +91,11 @@
   justify-content: space-between;
 }
 
-@mixin grid-elements {
+@mixin grid__elements {
   @include grid;
 
   &-header {
-    @include header_third;
+    @include header__third;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -104,7 +104,7 @@
   }
 
   &-sub {
-    @include sect_header;
+    @include sect__header;
     font-weight: $fontBold;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -112,14 +112,14 @@
   }
 
   &-title {
-    @include sect_title;
+    @include sect__title;
     grid-column-start: 3;
     grid-column-end: 4;
     align-self: flex-end;
   }
 
   &-year {
-    @include sect_title;
+    @include sect__title;
     grid-column-start: 4;
     grid-column-end: 5;
     justify-self: flex-end;
@@ -128,7 +128,7 @@
 
   &-text {
     @include paragraph;
-    @include text_opacity;
+    @include text__opacity;
     grid-column-start: 3;
     grid-column-end: 4;
     margin-bottom: 2rem;

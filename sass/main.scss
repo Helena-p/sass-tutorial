@@ -42,7 +42,7 @@ body {
 // Header and text content
 .header {
   &__tertiary {
-    @include header_third;
+    @include header__third;
     letter-spacing: -0.0423077rem;
   }
   span {
@@ -55,12 +55,12 @@ body {
   height: 30rem;
 
   &-primary {
-    @include header_main;
+    @include header__main;
     width: 63.5rem;
   }
   &-text {
-    @include sect_header;
-    @include text_opacity;
+    @include sect__header;
+    @include text__opacity;
     height: 15rem;
     font-style: italic;
     width: 30rem;
@@ -78,7 +78,7 @@ body {
 
 // Image gallery
 .gallery {
-  @include img-gallery;
+  @include img__gallery;
 }
 
 // Sub heading
@@ -90,7 +90,7 @@ body {
 }
 
 .sub__header-primary {
-  @include header_second;
+  @include header__second;
   width: 63rem;
 }
 
@@ -102,24 +102,24 @@ body {
 }
 
 .sub__list {
-  @include sect_header;
+  @include sect__header;
   list-style-type: none;
   width: 15rem;
 
   &-media,
   &-design {
-    @include text_opacity;
+    @include text__opacity;
   }
 
   &-li {
-    @include text_opacity;
+    @include text__opacity;
     margin-top: 1rem;
   }
 }
 
 // Award & Design grid section
 .grid__section {
-  @include grid-elements;
+  @include grid__elements;
 }
 
 .mid--ruler {

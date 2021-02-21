@@ -36,11 +36,11 @@ body {
   margin-top: 0;
 
   &-primary {
-    @include header_main;
+    @include header__main;
     width: 47.5rem;
   }
   &-secondary {
-    @include boxSecondary;
+    @include box__secondary;
   }
   &-paragraph {
     @include paragraph;
@@ -53,10 +53,10 @@ body {
 .form__container {
   @include form;
   &-input {
-    @include input_field;
+    @include input__field;
   }
   &-btn {
-    @include submit_btn;
+    @include submit__btn;
     margin-top: 3rem;
     &:hover {
       @include hover;
