@@ -42,7 +42,7 @@ body {
 .header {
   &__tertiary {
     @include header__third;
-    letter-spacing: -0.0423077rem;
+    letter-spacing: -0.04rem;
   }
   span {
     color: $textBlue;
